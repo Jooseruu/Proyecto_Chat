@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Amigos</title>
+    <!-- Enlazar el archivo CSS externo -->
+    <link rel="stylesheet" href="C:\Users\ar_jo\Desktop\Lenguaje_final\css\List.css" />
+  </head>
+  <body>
+    <!-- Contenido principal de la página -->
+    <section>
+      <!-- Botones para navegar a otras páginas -->
+      <div>
+        <div class="">
+          <button type="submit" onclick="goFunctions()" class="button">
+            <span class="button__text">Options</span>
+            <span class="button__icon">
+              <ion-icon name="person-add"></ion-icon>
+            </span>
+          </button>
+        </div>
+        <div>
+          <button type="submit" onclick="goAmigos()" class="button">
+            <span class="button__text">Lista de amigos</span>
+            <span class="button__icon">
+              <ion-icon name="people-outline"></ion-icon>
+            </span>
+          </button>
+        </div>
+      </div>
+      <!-- Lista de amigos -->
+      <div><ul id="tab"></ul></div>
+    </section>
+
+        <!-- Enlazar los archivos JavaScript externos -->
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="C:\Users\ar_jo\Desktop\Lenguaje_final\js\List.js"></script>
+
+</body>
+</html>

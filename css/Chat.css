@@ -1,0 +1,91 @@
+/* Establecer márgenes y relleno a 0 y establecer la fuente para todos los elementos en la página */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+  }
+  
+  /* Estilos para la sección principal de la página */
+  section {
+    /* Centrar el contenido de la sección */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Establecer la altura mínima y el ancho de la sección */
+    min-height: 70vh;
+    width: 70%;
+  
+    /* Agregar un degradado suave como fondo */
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+  }
+  
+  /* Estilos para los botones */
+  .button {
+    /* Establecer la altura y el relleno del botón */
+    display: flex;
+    height: 30px; /* Reducir la altura del botón */
+    padding: 0px;
+  
+    /* Establecer el color de fondo y quitar el borde y el contorno */
+    background: #009578;
+    border: none;
+    outline: none;
+  
+    /* Agregar bordes redondeados y ocultar el desbordamiento */
+    border-radius: 50px;
+    overflow: hidden;
+  
+    /* Establecer la fuente, el tamaño y el peso del texto del botón */
+    font-family: "Quicksand", sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+  
+    /* Cambiar el cursor al pasar el mouse sobre el botón */
+    cursor: pointer;
+  
+    /* Agregar una transición al cambiar el tamaño del botón */
+    transition: all 0.3s ease 0s;
+  }
+  
+  /* Cambiar el color de fondo y el tamaño del botón al pasar el mouse sobre él */
+  .button:hover {
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+  }
+  
+  /* Cambiar el color de fondo y el tamaño del botón al hacer clic en él */
+  .button:active {
+      background-color: #e2f1f8;
+      color: #ffbc0e; 
+  }
+  
+  /* Estilos para el texto y el ícono dentro del botón */
+  .button__text,
+  .button__icon {
+      /* Alinear verticalmente el texto y el ícono */
+      display:inline-flex;
+      align-items:center;
+  
+      /* Agregar relleno a los lados del texto y el ícono */
+      padding:0px; /* Reducir el relleno a los lados del texto y el ícono */
+  
+      /* Establecer el color del texto y la altura del elemento */
+      color:#fff;
+      height:100%;
+  }
+  
+  /* Estilos para el ícono dentro del botón */
+  .button__icon {
+      /* Establecer el tamaño del ícono y agregar un fondo semitransparente */
+      font-size:.8em; /* Reducir aún más el tamaño del ícono */
+      background:rgba(0,0,0,0.08);
+  }
+  
+  /* Estilos para los elementos div en la página */
+  div{
+      /* Mostrar los elementos div en línea y agregar márgenes a los lados */
+      display:flex;
+      margin:20px ;
+  }
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Enlazamos el archivo CSS -->
+  <link rel="stylesheet" href="C:\Users\ar_jo\Desktop\Lenguaje_final\css\Register.css">
+  <title>Register</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="#">
+                    <!-- Título del formulario -->
+                    <h2>Register</h2>
+                    <div class="inputbox">
+                        <!-- Campo de entrada para el nombre de usuario -->
+                        <input name="user" id="user" required>
+                       <label>User</label> 
+                    </div>
+
+                    <div class="inputbox">
+                        <!-- Icono de correo electrónico -->
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <!-- Campo de entrada para el correo electrónico -->
+                        <input type="email" name="mail" id="mail" required>
+                       <label>Gmail</label> 
+                    </div>
+                    <div class="inputbox">
+                        <!-- Icono de contraseña -->
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <!-- Campo de entrada para la contraseña -->
+                        <input type="password" name="pass" id="pass" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="selects">
+                        <!-- Etiqueta para el campo de selección de país -->
+                        <label>Select country</label>
+                    </div>
+                    <div class="inputbox">
+                        <!-- Campo de selección de país -->
+                        <select name="codeCountry" id="codeCountry"></select>
+                    </div>
+
+                    <!-- Contenedor para la tabla -->
+                    <div id="tab" class="cont"></div>
+                    
+                    <!-- Botón para registrar al usuario -->
+                    <button type="submit" onclick="register()" >Register</button>
+                    
+                    <!-- Botón para ir a la página de inicio de sesión -->
+                    <button type="submit" onclick="goLogin()" >Login</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enlazamos el archivo JavaScript -->
+    <script src="C:\Users\ar_jo\Desktop\Lenguaje_final\js\Register.js"></script>
+</body>
+</html> 

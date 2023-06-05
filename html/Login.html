@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Enlazamos el archivo CSS -->
+  <link rel="stylesheet" href="C:\Users\ar_jo\Desktop\Lenguaje_final\css\Login.css">
+  <title>Log In</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <!-- Formulario de inicio de sesión -->
+                <form action="#">
+                    <!-- Título del formulario -->
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <!-- Icono de correo electrónico -->
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <!-- Campo de entrada para el correo electrónico -->
+                        <input type="email" name="mail" id="mail" required>
+                       <label>Gmail</label> 
+                        
+                    </div>
+                    <div class="inputbox">
+                        <!-- Icono de contraseña -->
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <!-- Campo de entrada para la contraseña -->
+                        <input type="password" name="pass" id="pass" required>
+                        <label>Password</label>
+                        
+                    </div>
+                    
+                    <!-- Botón para iniciar sesión -->
+                    <button type="submit" onclick="enviar()" >Log in</button>
+                    
+                    <!-- Botón para ir a la página de registro -->
+                    <button type="submit" onclick="goRegister()" >Register</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enlazamos el archivo JavaScript -->
+    <script src="C:\Users\ar_jo\Desktop\Lenguaje_final\js\Login.js"></script>
+</body>
+</html> 

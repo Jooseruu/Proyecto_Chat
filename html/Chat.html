@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat</title>
+	<link rel="stylesheet" href="C:\Users\ar_jo\Desktop\Lenguaje_final\css\Chat.css">
+</head>
+<body>
+    <!-- Sección principal de la página -->
+    <main>
+        <!-- Botones para enviar y recibir mensajes -->
+        <div><button type="submit" onclick="enviarmsg()" class="button">
+            <span class="button__text">Enviar Mensaje</span>
+            <span class="button__icon">
+                <ion-icon name="chatbox-outline"></ion-icon>
+            </span>
+        </button></div>
+        <div><button type="submit" onclick="recibirmsg()" class="button">
+            <span class="button__text">Recibir Mensaje</span>
+            <span class="button__icon">
+                <ion-icon name="chatbox-outline"></ion-icon>
+            </span>
+        </button></div>
+
+        <!-- Contenedores para mostrar mensajes enviados y recibidos -->
+        <div id="send"></div>
+        <div id="get"></div>
+    </main>
+
+    <!-- Scripts necesarios para la página -->
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="C:\Users\ar_jo\Desktop\Lenguaje_final\js\Chat.js"></script>
+
+</body>
+</html>
