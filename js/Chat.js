@@ -68,3 +68,5 @@ function recibirmsg(){
     // Enviar la solicitud HTTP
     http.send();
 }
+// Llamar a la función recibirmsg() cada segundo utilizando setInterval()
+setInterval(recibirmsg, 100);
